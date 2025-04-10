@@ -61,3 +61,13 @@ for (let value of fruits) {
     console.log(value); // Banana, Apple, Orange
 }
 
+const arr = [1, 2, 3, 4, 5];
+let sum = 0;
+for (let value of arr) {
+    sum+= value;
+    // sum = sum + value;
+    // sum += value; // 1, 3, 6, 10, 15
+    // sum = 0 + 1 = 1
+}
+console.log(sum); // 15
+

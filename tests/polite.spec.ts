@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { time } from 'console';
 
 test( 'Login vào Poli', async ({ page }) => {
     // code của test
